@@ -1,0 +1,212 @@
+body{
+    background-color: blanchedalmond;
+}
+.hi{
+  text-align: center;
+}
+.parent{
+  margin-top:50PX;
+  display: flex;
+
+  justify-content: center;
+  justify-content:space-evenly;
+  border: 2px solid balck;
+}  
+img{
+  max-width: 400px;
+  width: 100%;
+}
+p{
+  text-align: center;
+  
+}
+
+.hey{
+  padding-top: 5rem;
+}
+@media screen and (min-width:1289px) {
+  .hey{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.child1,.child2,.child3,.child4{
+  
+  border: 2px solid black;
+  width: 220px;
+
+}
+p{
+  color: rgb(224, 140, 15);font-size:24px;
+  
+}
+h1{
+  
+  color:rgb(5, 150, 37);
+}
+h3{
+  
+  color: rgb(220, 21, 111);
+}
+
+}
+@media  screen and (min-width:1025px) and (max-width:1290px) {
+  
+img{
+  max-width:300px;
+}
+h1{
+  color: rgb(234, 55, 148);
+}
+h3{
+  color: rgb(67, 220, 21);
+}
+ 
+p{
+  
+    
+    color:blue;
+    
+    font-size:22px;
+    
+}
+.child1,.child2,.child3,.child4{
+  
+  border: 2px solid black;
+  width: 200px;
+}
+
+.hey{
+    display: flex;
+    justify-content: space-around;
+
+}
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+  img{
+    max-width:90px;
+    margin-top: 20px;
+  }
+  .child1,.child2,.child3,.child4{
+  
+    border: 2px solid black;
+    width: 300px;
+    margin-top:20px;
+    margin-left: 60px;
+  }
+  .hey{
+    padding-top: 20px;
+    margin-right: 80px;
+  }
+
+  .hey2{
+    margin-top:30px;
+  }
+  h1{
+    color: rgb(223, 37, 232);
+  }
+  p{
+    color:rgb(5, 150, 37);
+    font-size: 15px;
+  }
+  h3{
+    color: rgb(176, 100, 18);
+  }
+.rn{
+  font-size: 20px;
+}
+.xx{
+  font-size: 15px;
+}
+  .yy{
+  font-size: 12px;
+}
+.parent{
+  display: inline;
+ 
+}
+}
+@media screen and (min-width:481px) and (max-width:768px){
+  img{
+    max-width: 160px;
+  }
+  h1{
+    color:darkturquoise;
+    
+  }
+  .child1,.child2,.child3,.child4{
+  
+    border: 2px solid black;
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 20px;
+    
+  }
+ 
+  p{
+    color:red;
+    font-size: 18px;
+  }
+  h2{
+    color: coral;
+  }
+.hey{
+  display: flex;
+  padding-top: 2rem;
+  
+  justify-content: space-around;
+
+}
+.rn{
+  font-size: 22px;
+}
+.xx{
+  font-size: 20px;
+}
+.yy{
+  font-size: 18px;
+}
+.parent{
+  flex-wrap: wrap;
+}
+
+}
+@media  screen and (min-width:769px)  and (max-width:1024px){
+  img{
+    max-width: 220px;
+  }
+  .hey{
+  padding-top: 10px;
+    display: flex;
+    
+    justify-content: space-around;
+    
+  
+  }
+  .child1,.child2,.child3,.child4{
+  
+    border: 2px solid black;
+    width: 180px;
+margin-left: 10px;
+
+  }
+  p{
+    color: rgb(127, 11, 165);
+    font-size:20px;
+  }
+  h1{
+    color: rgb(208, 12, 77);
+  }
+  h2{
+    color: rgb(15, 59, 218);
+  }
+  .rn{
+    color: rgb(224, 140, 15);
+    font-size:25px;
+  }
+  
+}
+  

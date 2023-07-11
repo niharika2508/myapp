@@ -1,0 +1,13 @@
+.logo{
+    padding-right: 900px;
+}
+.head{
+    font-size: x-small;
+}
+.card{
+    width: 250px;
+    margin:auto;
+}
+.button1{
+    box-shadow: rgb(99, 189, 10) 2px 2px 10px;
+}

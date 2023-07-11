@@ -1,0 +1,44 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.UUvPTNG97oKNpNAWz0N0QAHaEo?w=311&h=194&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.hii a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+.parent{
+    display: flex;
+    gap: 100px;
+}
+.child1,.child2,.child3,.child4{
+    text-align: center;
+    width: 500px;
+    border: 2px solid white;
+    background-color:blanchedalmond;
+    padding: 10px;
+    margin-top: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: pink;
+    
+    text-align: center;
+}

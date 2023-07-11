@@ -1,0 +1,157 @@
+body{
+    background-color:#826096;
+    
+}
+.hii{
+    text-align: center;
+}
+
+h3{
+    margin-top:40px;
+    color:white;
+    
+    font-family: 'Pacifico',cursive;
+    font-size: 20px;
+}
+
+
+h2{
+    margin-top: 50px;
+    color: chocolate;
+}
+p{
+    padding-top: 20px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+  .child1,.child2,.child3{
+    border: 2px solid pink;
+    background-color: antiquewhite;
+    margin-top: 20px;
+  }
+  .fa-twitter{
+    font-size:50px;
+    color: rgb(239, 119, 27);
+  }
+.hey{
+    color: yellow;
+}
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .child1,.child2,.child3{
+        border: 2px solid pink;
+        background-color: rgb(43, 212, 227);
+        margin-top: 20px;
+      }
+      .fa-twitter{
+        font-size:80px;
+        color: rgb(193, 239, 27);
+      }
+      .hey{
+        color:rgb(27, 239, 158);
+        font-size: 40px;
+    }
+   
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .parent{
+        display: flex;
+        gap: 20px;
+    }
+    .child1,.child2,.child3{
+        border: 2px solid pink;
+        width: 2500px;
+        padding: 30px;
+        background-color: rgb(255, 146, 226);
+        margin-top: 20px;
+      }
+      .fa-twitter{
+        font-size:90px;
+        color: rgb(110, 209, 234);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-top: 80px;
+        margin-right: 30px;
+      }
+      h2{
+        color:blue;
+      }
+      .hey{
+        color:rgb(207, 239, 27);
+        font-size: 50px;
+        margin-right: 120px;
+    }
+    h3{
+        margin-right: 120px;
+    }
+  
+}
+@media screen and (min-width:1025px) and (max-width:1280px){
+    .parent{
+        display: flex;
+        gap: 20px;
+    }
+    .child1,.child2,.child3{
+        border: 2px solid pink;
+        width: 2500px;
+        padding: 30px;
+        background-color: rgb(131, 244, 132);
+        margin-top: 80px;
+      }
+      .fa-twitter{
+        font-size:100px;
+        color: rgb(110, 204, 251);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-top:80px;
+        margin-right: 60px;
+      }
+      h2{
+        color:rgb(242, 148, 102);
+      }
+      .hey{
+        color:rgb(150, 15, 67);
+        font-size: 60px;
+    }
+    h3{
+
+    }
+    
+}
+@media  screen and (min-width:1281px) {
+   
+    .parent{
+        display: flex;
+        gap: 20px;
+    }
+    .child1,.child2,.child3{
+        border: 2px solid pink;
+        width: 2500px;
+        padding: 30px;
+        background-color: rgb(198, 228, 254);
+        margin-top: 80px;
+      }
+      .fa-twitter{
+        font-size:100px;
+        color: rgb(222, 237, 156);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-top:100px;
+        margin-right: 140px;
+      }
+      h2{
+        color:rgb(242, 148, 102);
+      }
+      .hey{
+        color:rgb(239, 149, 184);
+        font-size: 70px;
+    }
+    
+}

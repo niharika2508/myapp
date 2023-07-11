@@ -1,0 +1,56 @@
+body{
+    background-color: beige;
+}
+.heading{
+    font-family:Arial,Helvetica,sans-serif ;
+    padding:100px;
+    font-size:50px;
+    margin-left: 60px;
+
+}
+
+img{
+    
+    
+    float:left;
+    margin-left: 150px;
+
+    
+
+}
+p{
+    margin-right: 150px;
+    font-size: 30px;
+    margin-left: 500px;
+    
+
+}
+span{
+    color: brown;
+}
+.head{
+    margin-top: 200px;
+    margin-left:150px ;
+    font-size: 40px;
+}
+.heap{
+    margin-left:150px ;
+    font-size: 40px;
+}
+ol{
+    
+    font-size: 30px;
+    margin-left: 150px;
+}
+ul{
+    font-size: 30px;
+    margin-left:150px ;
+}
+.high{
+    color: crimson;
+    margin-left:150px;
+    font-size: 30px;
+}
+.huge{
+    color: brown;
+}

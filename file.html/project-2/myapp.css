@@ -1,0 +1,39 @@
+
+.xx{
+    background-color: rgb(241, 236, 113);
+}
+header{
+    background-image: url("https://th.bing.com/th/id/OIP.g9MwhdPSa0eQJAZ8xZ87TAHaEo?w=275&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7 ");
+    
+    background-size: cover;
+    background-position: right;
+    
+    position: relative;
+}
+.title h1{
+    text-shadow:2px 2px 2px rgb(176, 118, 247);
+}
+.banner{
+    position: absolute;
+    bottom: -30px;
+    border: 5px solid rgb(253, 148, 202);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    left:0;
+    right:0;
+}
+.card-img-top{
+    width:100%;
+    height: 200px;
+}
+.main{
+    background-image: url("https://th.bing.com/th/id/OIP.KIb763TmSg9HWVRm_-V7mgHaE7?w=241&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+}
+.ig{
+    background-color: rgb(246, 163, 229);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(250, 246, 213);
+}
